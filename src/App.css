@@ -1,0 +1,26 @@
+ 
+
+h1 {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #0D6073;
+  color: #fff;
+  border: none;
+  border-radius: 25px; /* Rounded corners */
+  padding: 13px 40px; /* Increased padding for a larger button */
+  font-size: 20px; /* Increased font size for better readability */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Transition for background color, transform, and box-shadow */
+  width: auto; /* Set width to auto for better flexibility */
+  min-width: 90px; /* Set a minimum width for consistent button size */
+}
+
+button:hover {
+  background-color: #0A4F55; /* Darker shade on hover */
+  transform: scale(1.05); /* Scale effect on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+

@@ -1,0 +1,27 @@
+.result-container {
+    background-color: #F9F9F9; /* Light background for the result container */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15), 0 4px 10px rgba(0, 0, 0, 0.1); /* Enhanced shadow effect */
+    padding: 20px; /* Padding for spacing */
+    margin: 20px; /* Margin for separation */
+    text-align: center; /* Center text alignment */
+   }
+  
+  .result-title {
+    color: #0D6073; /* Title color */
+    font-size: 2rem; /* Title font size */
+    margin-bottom: 15px; /* Space below the title */
+  }
+  
+  .result-item {
+    font-size: 1.2rem; /* Font size for result items */
+    color: #333; /* Darker text color for readability */
+    margin: 10px 0; /* Margin between result items */
+  }
+  
+  .result-item span {
+    font-weight: bold; /* Make the result values bold */
+    color: #0D6073; /* Color for result values */
+  }
+  
+ 

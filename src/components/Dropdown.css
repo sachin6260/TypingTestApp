@@ -1,0 +1,54 @@
+label {
+    margin-right: 10px;
+    color: #0D6073;
+    font-size: 20px;
+}
+
+.select-container {
+    position: relative; /* Positioning for the arrow */
+    display: inline-block; /* For proper alignment */
+}
+
+select {
+    border: none;
+    border-radius: 25px; /* Rounded */
+    padding: 13px 40px 13px 15px; /* Added padding for arrow */
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    color: #0D6073;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    appearance: none; /* Remove default arrow */
+}
+
+select:focus {
+    outline: none;
+    box-shadow: 0 0 5px #0D6073; /* Focus shadow */
+}
+
+/* Custom Arrow */
+.select-arrow {
+    position: absolute;
+    top: 50%;
+    right: 15px; /* Positioning the arrow */
+    width: 20px; /* Size of the arrow */
+    height: 20px; /* Size of the arrow */
+    background-color: transparent;
+    pointer-events: none; /* Prevent interaction with the arrow */
+    transition: transform 0.2s ease; /* Animation on focus */
+    transform: translateY(-50%); /* Center the arrow vertically */
+}
+
+/* Arrow pointing down */
+select:focus + .select-arrow {
+    transform: translateY(-50%) rotate(-180deg); /* Rotate arrow on focus */
+}
+
+/* Arrow icon */
+.select-arrow::after {
+    content: '▼'; /* Unicode character for the arrow */
+    font-size: 20px; /* Size of the arrow */
+    color: #0D6073; /* Arrow color */
+}

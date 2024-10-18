@@ -1,0 +1,31 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', Arial, Tahoma, sans-serif; /* Font family */
+    background-color: #D9EEF3; /* Light background */
+    color: #0D6073; /* Dark text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     flex-direction: column;
+    background-image: url('./assets/center-back-light.svg'); /* Path to your SVG image */
+    background-size: cover; /* Cover the entire area */
+    background-repeat: no-repeat; /* Prevent repetition of the image */
+    background-position: center; /* Center the image */
+    position: relative; /* Set position to relative */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    z-index: 1; /* Ensure heading appears above the background */
+}
+
+ 
